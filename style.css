@@ -137,6 +137,9 @@ animation: slide 1.5s ease;
   .input{
     margin-top: 30px;
   }
+  .other{
+    margin-top: 40px;
+  }
   input {
   width: 300px;
   height: 40px;
