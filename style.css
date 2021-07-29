@@ -134,9 +134,27 @@ animation: slide 1.5s ease;
 
 }
 @media screen and (max-width: 700px){
+  input {
+  width: 300px;
+  height: 40px;
+  border-radius: 10px;
+  border: none;
+  background: rgba(128, 128, 128, 0.219);
+  text-indent: 20px;
+ 
+}
+button {
+  width: 150px;
+  height: 40px;
+  margin-left: 50px;
+  background: rgb(94, 118, 255);
+  border-radius: 5px;
+  color: white;
+  border: none;
+}
   .body{
     align-items: center;
-    margin: 0px;
+    margin-left: 10px;
   }
   .presentation {
   display: column;
