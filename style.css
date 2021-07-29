@@ -8,7 +8,7 @@
 
 }
 .intorduction {
-  padding: 10px 0px 0px 0px;
+  padding: 5px 0px 0px 0px;
   margin-left: 80px;
 
 }
@@ -18,9 +18,11 @@ input {
   border-radius: 10px;
   border: none;
   background: rgba(128, 128, 128, 0.219);
+  text-indent: 20px;
+ 
 }
 .input{
-  padding-top: 80px;
+  padding-top: 50px;
 }
 .grup{
   display: flex;
@@ -130,4 +132,28 @@ animation: slide 1.5s ease;
     flex: 0.4;
     color: rgb(221, 0, 0);
 
+}
+@media screen and (max-width: 700px){
+  .body{
+    align-items: center;
+    margin: 0px;
+  }
+  .presentation {
+  display: column;
+}
+.intorduction {
+  margin-left: 60px;
+  margin-right: 0px;
+  
+}
+.color{
+  display: none;
+}
+.logo{
+background: linear-gradient(to right, white, rgba(0, 12, 122, 0.637), white);
+border-radius: 5px;
+display: block;
+
+
+}
 }
